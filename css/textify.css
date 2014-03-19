@@ -1,0 +1,49 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+.textify{
+	/*overflow:hidden;*/
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	overflow:hidden;
+	position:relative;
+		
+	}
+.textify p{
+font-size: 1.2em;
+line-height: 1.6;
+font-weight: 300;
+padding: 5px 8%;
+text-align: justify;
+}
+
+.textify img{
+	float : left;	
+	}
+.textify_nav{
+    margin: 10px 0;
+	position:absolute;
+	bottom:0;
+	}
+.textify_nav ul {
+	margin:0;
+	padding:0;
+}
+.textify_nav ul li:hover, .textify_nav  ul li.selected {
+	background-position:0 -15px;
+
+}
+.textify_nav ul li {
+    background-image: url("../images/textify_nav.png");
+    background-repeat: no-repeat;
+    float: left;
+    height: 15px;
+    list-style: none outside none;
+    margin-left: 3px;
+    margin-right: 3px;
+    width: 15px;
+	cursor:pointer;
+
+}
+.contentText{
+	margin-left:0;
+	float:left;
+	
+	}
